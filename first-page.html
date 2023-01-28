@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./onbording-flow.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/swaraj54/Onboarding-Flow-Signup/main/public/favicon.ico"
+    />
     <title>First Page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sectionOne">
+        <img
+          src="https://onboarding-flow-signup.netlify.app/static/media/Eden.98dfc252502389b4cf18.png"
+          alt="edn"
+        />
+      </div>
+      <div class="sectionTwo">
+        <h1>Welcome! First things first...</h1>
+        <h4>You can always change them later.</h4>
+        <form action="/second-page.html">
+          <label>First Name</label><br />
+          <input type="text" placeholder="steve jobs" /><br /><br/>
+          <label>Last Name</label><br />
+          <input type="text" placeholder="steve" /><br />
+          <input type="submit" id="submit" value="Creat Workspace" />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

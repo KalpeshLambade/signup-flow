@@ -1,0 +1,153 @@
+.main{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    width:25%;
+    margin: auto;
+    margin-top:5% ;
+    height:60vh;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sectionOne{
+    /* border: 1px solid blue; */
+}
+.sectionOne >img{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin-left:35%;
+}
+.sectionTwo{
+    /* border: 1px solid blue; */
+}
+.sectionTwo > h1,h4{
+    text-align:center;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.sectionTwo > h1{
+    color:#000000;
+    font-size: 23px;
+    font-weight: bold;
+}
+.sectionTwo > h4{
+    font-size: 12px;
+    color:gray;
+}
+.sectionTwo >form{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin:auto;
+    height:30vh;
+}
+.sectionTwo >form >input{
+    box-sizing:border-box;
+    margin-top:10px; 
+    border-radius:5px;
+    padding-left:10px;
+    border: 0.5px solid grey;
+    outline-color: purple;
+    height:5vh;
+    width:100%    
+    
+     
+}
+.sectionTwo >form >label{
+    font-weight: 600;
+    font-size: small;
+}
+#submit{
+    margin-top:20px;
+    background: none;
+    outline: none;
+    background-color: #664de5;
+    color: white;
+    border-radius:5px;
+}
+.sectionTwo > form > label:nth-child(6) >span{
+    font-size: smaller;
+    font-weight: lighter;
+}
+.sectionTwo >form >div{    
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    height:5vh;
+    border-radius:5px;
+}
+.sectionTwo >form >div >input{
+    border-radius: border-box;
+    padding-left: 10px;
+    border: 0.5px solid grey;
+    outline-color: purple;
+}
+.sectionTwo >form >div >input:nth-child(1){
+    width: 30%;
+}
+.sectionTwo >form >div >input:nth-child(2){
+    width: 70%;
+}
+
+#selection{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 28vh;
+    margin: 0 30px 0 30px;
+    padding: 20px;
+}
+#selection >div:first-child, #selection >div:nth-child(2){
+    width: 50%;
+    border: 2px solid #f5f6fa;
+    box-shadow: 1px 1px 5px #f5f6fa;
+}
+#selection >div:first-child{
+    margin-right: 10px;
+    
+}
+#selection >div:first-child:hover, #selection >div:nth-child(2):hover{
+    border: 0.5px solid #664de5;
+    box-shadow: 1px 1px 5px #664de5;
+}
+#selection >div >i{
+    color: #664de5;
+    margin: 30px 0 5px 20px;
+}
+#selection >div >div >h3{
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 15px;
+}
+#selection >div >div >p{
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 15px;
+    color:grey;
+}
+button{
+    height:5vh;
+    width:100%;
+    margin-top:20px;
+    border: none;
+    outline: none;
+    background-color: #664de5;
+    color: white;
+    border-radius:5px;
+}
+#sectionThree{
+    /* border: 1px solid green; */
+    text-align: center;
+}
+#sectionThree >i{
+    color:#664de5;
+    margin-top: 50px;
+}
+#sectionThree >p{
+    color:#a6908f;
+    font-size: small;
+}
+#sectionThree >button{
+    width: 85%;
+}
